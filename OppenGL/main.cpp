@@ -114,10 +114,10 @@ int main() {
     glfwSetFramebufferSizeCallback(window, framebuffer_size_callback);
     glfwSetKeyCallback(window, key_callback);
 
-    Shader ourShader("C:/Users/Admin/Downloads/my_en-1880bb6b480cd15432110ac956c122b6d338aac9/my_en-1880bb6b480cd15432110ac956c122b6d338aac9/OppenGL/vertex.glsl", "C:/Users/Admin/Downloads/my_en-1880bb6b480cd15432110ac956c122b6d338aac9/my_en-1880bb6b480cd15432110ac956c122b6d338aac9/OppenGL/fragment.glsl");
+    Shader ourShader("vertex.glsl", "fragment.glsl");
 
-    unsigned int texture1 = loadTexture("C:/Users/Admin/Downloads/my_en-1880bb6b480cd15432110ac956c122b6d338aac9/my_en-1880bb6b480cd15432110ac956c122b6d338aac9/opengl/texture/brickwall.jpg");
-    unsigned int texture2 = loadTexture("C:/Users/Admin/Downloads/my_en-1880bb6b480cd15432110ac956c122b6d338aac9/my_en-1880bb6b480cd15432110ac956c122b6d338aac9/opengl/texture/brickwall_normal.jpg");
+    unsigned int texture1 = loadTexture("texture/brickwall.jpg");
+    unsigned int texture2 = loadTexture("texture/brickwall_normal.jpg");
 
 
     GLfloat vertices[] = {
