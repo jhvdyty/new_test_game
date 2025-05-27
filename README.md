@@ -1,12 +1,12 @@
-new_test_game
+# new_test_game
 A simple interactive OpenGL game prototype written in C++. The goal is to click on a textured square that randomly jumps to a new position upon a successful hit. The game uses GLFW for windowing/input and GLAD for OpenGL function loading.
 
- Gameplay
+# Gameplay
 You are presented with a colored, textured quad (square) on screen.
 Your task is to click on the square with the left mouse button.
 Each successful click causes the square to jump to a new random position.
 
- Features
+# Features
 Basic textured 2D quad rendering
 
 Mouse interaction: hit detection and response
@@ -17,9 +17,8 @@ Texture blending with adjustable mix value
 
 Simple keyboard and mouse event handling
 
- Project Structure
+# Project Structure
 graphql
-Копировать код
 new_test_game/
 ├── OpenGL/
 │   ├── main.cpp            # Main game logic and rendering
@@ -30,14 +29,14 @@ new_test_game/
 │   └── brickwall_normal.jpg# Normal map (blending)
 ├── vertex.glsl             # Vertex shader
 └── fragment.glsl           # Fragment shader
- Controls
+# Controls
 Key / Action	Function
 W	Increase texture blend factor
 S	Decrease texture blend factor
 Mouse Left Click	Hit the square to move it randomly
 ESC	Exit the game
 
- Requirements
+# Requirements
 Make sure you have the following installed:
 
 GLFW (window/input library)
@@ -50,7 +49,7 @@ OpenGL 3.3 or higher
 
 C++17-compatible compiler
 
- How to Build
+# How to Build
 On Linux/macOS
 bash
 Копировать код
@@ -66,9 +65,10 @@ If you're using Windows or another OS, you may need to adapt the compiler and li
 
  Running the Game
 bash
-Копировать код
 ./new_test_game
-📸 Screenshots
+
+
+# Screenshots
 ![image](https://github.com/user-attachments/assets/be10dbe3-63af-47ae-844b-a0932e2de834)
 
 ![image](https://github.com/user-attachments/assets/7148f698-2477-4422-901a-1ab036034bef)
@@ -76,7 +76,7 @@ bash
 ![image](https://github.com/user-attachments/assets/09c18b5d-ee35-48a3-af9f-d8a36ae547fb)
 
 
- License
+# License
 This project is open-source and provided for educational purposes.
 Feel free to modify, extend, or use it in your own projects.
 
